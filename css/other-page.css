@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "Aire";
+  src: url("./fonts/aire-exterior/18685.ttf") format("truetype");
+  font-size: normal;
+  font-weight: normal;
+}
+body {
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+body header {
+  height: 100px;
+  padding: 10px;
+  border: 1px solid black;
+  background: wheat;
+  font-family: "Aire", sans-serif;
+  font-size: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+body header div {
+  height: 80px;
+  width: 200px;
+  background: #e8f794;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+body header div:hover {
+  cursor: no-drop;
+}
+body header div img {
+  width: 50px;
+  background: white;
+}
+body header div span {
+  text-shadow: 1px 1px 1px #da1515;
+}
+body section {
+  height: 100%;
+  padding: 10px;
+  background: #22c1c3;
+  background: -webkit-gradient(linear, left bottom, left top, from(#22c1c3), to(rgba(32, 7, 59, 0.9508213141)));
+  background: linear-gradient(0deg, #22c1c3 0%, rgba(32, 7, 59, 0.9508213141) 100%);
+}
+body footer {
+  padding: 5px;
+  height: 80px;
+  background: #353232;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+
+body section div.back {
+  width: 40%;
+  height: 40%;
+  min-width: 100px;
+  min-height: 100px;
+  margin: 0 auto;
+  border: 2px solid red;
+  background: rgba(144, 192, 190, 0.575);
+  color: rgba(46, 10, 131, 0.548);
+  font-weight: bold;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+body section a {
+  text-decoration: none;
+}
+body section a:hover {
+  font-size: 25px;
+  color: red;
+}
+
+/*# sourceMappingURL=other-page.css.map */

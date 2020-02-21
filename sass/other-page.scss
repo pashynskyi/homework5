@@ -1,0 +1,36 @@
+$base-fontsize: 20px;
+$base-color: rgba(46, 10, 131, 0.548);
+$base-bg: rgba(144, 192, 190, 0.575);
+$base-fontweight: bold;
+$base-border: 2px solid red;
+
+
+@import 'structure-page.scss';
+
+
+body{
+    section {
+        div.back{
+        width: 40%;
+        height: 40%;
+        min-width: 100px;
+        min-height: 100px;
+        margin: 0 auto;
+        border: $base-border;
+        background: $base-bg;
+        color: $base-color;
+        font-weight: $base-fontweight;
+        font-size: $base-fontsize;
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        }
+        a {
+            text-decoration: none;
+            &:hover {
+                font-size: 25px;
+                color: red;
+            }
+        }
+    }
+}

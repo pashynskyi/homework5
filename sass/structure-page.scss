@@ -1,0 +1,58 @@
+@import 'fonts.scss';
+body {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    header {
+        height: 100px;
+        padding: 10px;
+        border: 1px solid black;
+        background: wheat;
+        font-family: "Aire", sans-serif;
+        font-size: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 5;
+        div {
+            height: 80px;
+            width: 200px;
+            background: rgb(232, 247, 148);
+            border: 1px solid black;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            &:hover {
+                cursor: no-drop;
+            }
+            img {
+                width: 50px;
+                background: white;
+            }
+            span {
+                text-shadow: 1px 1px 1px rgb(218, 21, 21);
+            }
+        }
+    }
+    section {
+        height: 100%;
+        padding: 10px;
+        background: rgb(34,193,195);
+        background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(32,7,59,0.9508213141025641) 100%);
+    }
+    footer {
+        padding: 5px;
+        height: 80px;
+        background: rgb(53, 50, 50);
+        color: white;
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: 5;
+    }
+}
